@@ -4,7 +4,7 @@ namespace Problems
 {
     class Program
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {    Programs p=new Programs();
             Console.WriteLine(p.prefix("Hello World!"));
         
