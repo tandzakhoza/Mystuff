@@ -2,18 +2,15 @@
 
 namespace Problems
 {
-    class Program
+    public class Program
     {
-        public void Main(string[] args)
-        {    Programs p=new Programs();
+        static void Main(string[] args)
+        {    Program p=new Program();
             Console.WriteLine(p.prefix("Hello World!"));
         
         }
         
-       public class Programs
-        {
-
-             public string prefix(string s)
+        public string prefix(string s)
              {
                  int length= s.Length;
                  string[] words =s.Split(' ');
@@ -27,8 +24,6 @@ namespace Problems
 
              }
 
-
-        }
 
 
 
