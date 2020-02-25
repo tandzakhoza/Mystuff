@@ -20,7 +20,10 @@ namespace Problems
                       numwords++;
                  }
 
-                 return length+","+numwords+":"+s;
+                // return length+","+numwords+":"+s;
+               return "\""+length+","+numwords+":"+s+"\"";
+               
+               // Console.WriteLine("{0},{1}:{2}",length,numwords,s);
 
              }
 

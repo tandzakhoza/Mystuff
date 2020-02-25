@@ -6,6 +6,5 @@ matrix:
  include:
   - os: linux
   - dist: Xenial
-  - os: linux
   - dist: bionic
   - os: osx
